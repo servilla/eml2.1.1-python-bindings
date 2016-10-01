@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-bes.1000.120" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1   http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <title>Urban Forest Effects Model (UFORE) to calculate forest structure and function from sample ground data.  Four part set.</title>
+    <creator id="">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+      <address>
+        <deliveryPoint>Baltimore Ecosystem Study</deliveryPoint>
+        <deliveryPoint>1280 Sharon Turnpike</deliveryPoint>
+        <deliveryPoint>PO Box AB</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="BES-LTER-Person">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Nowak</surName>
+      </individualName>
+      <address>
+        <deliveryPoint> Northern Research Station</deliveryPoint>
+        <deliveryPoint>c/o SUNY ESF, 5 Moon Library</deliveryPoint>
+        <city>Syracuse</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>13210</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>snowak@fs.fed.us</electronicMailAddress>
+    </creator>
+    <pubDate>2013-09-09</pubDate>
+    <abstract>
+      <para>
+          Within the City of Baltimore, 195 permanent 1/10 circular plots were established based on a stratified random sample among land uses in 1999. These plots were re-measured in 2004 and 2009 and will be re-measured again in 2014. On each plot, all trees (as defined as woody vegetation with a stem diameter at 4.5 ft (dbh) greater than one-inch) are recorded. For each tree, data are recorded on species, dbh, height, crown width, condition, crown competition, percent canopy missing and distance and direction to nearby residential buildings.  These data are analyzed using the i-Tree model (www.itreetools.org) to assess ecosystem services and values. However, more importantly, these plots along with a comparable set of plots established in Syracuse, NY in 1999 are the first and most spatially comprehensive set of long-term urban forest monitoring data within cities globally. These data are being used to understand how urban forest structure and associated ecosystem services are changing through time in the City of Baltimore.
+          </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">urban forest monitoring</keyword>
+      <keyword keywordType="theme">ecosystem services</keyword>
+      <keyword keywordType="theme">urban forest change</keyword>
+      <keyword keywordType="theme">urban forest structure</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Baltimore</keyword>
+      <keyword keywordType="theme">MD</keyword>
+      <keyword keywordType="theme">Washington</keyword>
+      <keyword keywordType="theme">D.C</keyword>
+      <keyword keywordType="theme">Chesapeake Bay</keyword>
+      <keyword keywordType="theme">Baltimore-Washington</keyword>
+      <keyword keywordType="theme">Maryland</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Publisher: David Nowak The scientists the BES-LTER Program and the Cary Institute of Ecosystem Studies must receive adequate acknowledgement for the use of data.  Please inform the BES Project Facilitator and use a statement such as the following to give credit on any document using the data: 'Data was supported by the Baltimore Ecosystem Study'</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://beslter.org</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Bounding coordinates describing the area covered by the entire BES study</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-77.314183</westBoundingCoordinate>
+          <eastBoundingCoordinate>-76.012008</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.724847</northBoundingCoordinate>
+          <southBoundingCoordinate>38.708367</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Baltimore Ecosystem Study Information Manager</positionName>
+      <address>
+        <deliveryPoint>Cary Institute Of Ecosystem Studies</deliveryPoint>
+        <deliveryPoint>2801 Sharon Turnpike</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>walshj@caryinstitute.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Leaf %</title>
+            <para>Trees are evaluated for percentage leaf cover.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>BES_1000-1</entityName>
+      <entityDescription>Data table for data set BES_1000</entityDescription>
+      <physical>
+        <objectName>Baltimore-Data-for-LTER-posting-all-1-of-4-map-landuse.csv</objectName>
+        <size unit="kilobyte">10</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Urban Forest Effects Model (UFORE) Data.  The UFORE model calculates forest structure and function from sample ground data.</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bes/1000/120/f7643d4a73fb498f0c1abd9df622ef64</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="BES-da-0029.table-1">
+          <attributeName>PLOTID</attributeName>
+          <attributeDefinition>Plot Identification Number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0030.table-1">
+          <attributeName>LUSECODE</attributeName>
+          <attributeDefinition>Land Use Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0023.table-1">
+          <attributeName>LAD</attributeName>
+          <attributeDefinition>LAND USE ABBREVIATED DEFINITION</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0024.table-1">
+          <attributeName>LFD</attributeName>
+          <attributeDefinition>LAND USE FULL DEFINITION</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>BES_1000-4</entityName>
+      <entityDescription>Data table for data set BES_1000</entityDescription>
+      <physical>
+        <objectName>Baltimore-Data-for-LTER-posting-all-4-of-4-2009.csv</objectName>
+        <size unit="kilobyte">68</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Urban Forest Effects Model (UFORE) Data.  The UFORE model calculates forest structure and function from sample ground data.</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bes/1000/120/36ea01c17e094152dd6d508d3992654c</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="BES-da-0029.table-4">
+          <attributeName>PLOTID</attributeName>
+          <attributeDefinition>Plot Identification Number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0025.table-4">
+          <attributeName>SPCode</attributeName>
+          <attributeDefinition>Species Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0026.table-4">
+          <attributeName>STEMS</attributeName>
+          <attributeDefinition>Number of stems</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0031.table-4">
+          <attributeName>DBH1</attributeName>
+          <attributeDefinition>Diameter at Breast Height 1 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0032.table-4">
+          <attributeName>DBH2</attributeName>
+          <attributeDefinition>Diameter at Breast Height 2 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0033.table-4">
+          <attributeName>DBH3</attributeName>
+          <attributeDefinition>Diameter at Breast Height 3 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0034.table-4">
+          <attributeName>DBH4</attributeName>
+          <attributeDefinition>Diameter at Breast Height 4 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0035.table-4">
+          <attributeName>DBH5</attributeName>
+          <attributeDefinition>Diameter at Breast Height 5 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0036.table-4">
+          <attributeName>DBH6</attributeName>
+          <attributeDefinition>Diameter at Breast Height 6 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0037.table-4">
+          <attributeName>DBH7</attributeName>
+          <attributeDefinition>Diameter at Breast Height 7 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0038.table-4">
+          <attributeName>DBH8</attributeName>
+          <attributeDefinition>Diameter at Breast Height 8 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0039.table-4">
+          <attributeName>DBH9</attributeName>
+          <attributeDefinition>Diameter at Breast Height 9 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0040.table-4">
+          <attributeName>DBH10</attributeName>
+          <attributeDefinition>Diameter at Breast Height 10 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0041.table-4">
+          <attributeName>DBH11</attributeName>
+          <attributeDefinition>Diameter at Breast Height 11 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0042.table-4">
+          <attributeName>TREEHT</attributeName>
+          <attributeDefinition>Tree Height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0043.table-4">
+          <attributeName>BASEHT</attributeName>
+          <attributeDefinition>Base Height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0044.table-4">
+          <attributeName>CROWNWDTH</attributeName>
+          <attributeDefinition>Crown Width</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0045.table-4">
+          <attributeName>CONDITION</attributeName>
+          <attributeDefinition>Condition</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0046.table-4">
+          <attributeName>PCTAREA</attributeName>
+          <attributeDefinition>% Area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0047.table-4">
+          <attributeName>PCTLEAFPRSNT</attributeName>
+          <attributeDefinition>% Leaf Present</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0048.table-4">
+          <attributeName>NUMBER</attributeName>
+          <attributeDefinition>Number for UFORE</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0049.table-4">
+          <attributeName>TRSR</attributeName>
+          <attributeDefinition>Tree or shrub flag field</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tree or shrub indicator</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0050.table-4">
+          <attributeName>#BLDG</attributeName>
+          <attributeDefinition>Number of buildings in vicinity for UFORE data</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0051.table-4">
+          <attributeName>DIR1</attributeName>
+          <attributeDefinition>Direction to building 1 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0052.table-4">
+          <attributeName>DIS1</attributeName>
+          <attributeDefinition>Distance to building 1 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0053.table-4">
+          <attributeName>DIR2</attributeName>
+          <attributeDefinition>Direction to building 2 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0054.table-4">
+          <attributeName>DIS2</attributeName>
+          <attributeDefinition>Distance to building 2 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0055.table-4">
+          <attributeName>DIR3</attributeName>
+          <attributeDefinition>Direction to building 3 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0056.table-4">
+          <attributeName>DIS3</attributeName>
+          <attributeDefinition>Distance to building 3 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0057.table-4">
+          <attributeName>STREET</attributeName>
+          <attributeDefinition>Presence or absense of a street for UFORE</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Y OR N flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0058.table-4">
+          <attributeName>CLE</attributeName>
+          <attributeDefinition>CLE code for UFORE</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>BES_1000-3</entityName>
+      <entityDescription>Data table for data set BES_1000</entityDescription>
+      <physical>
+        <objectName>Baltimore-Data-for-LTER-posting-all-3-of-4-2004.csv</objectName>
+        <size unit="kilobyte">74</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Urban Forest Effects Model (UFORE) Data.  The UFORE model calculates forest structure and function from sample ground data.</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bes/1000/120/2830611430a0fe852ecd614927bd4a8a</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="BES-da-0029.table-3">
+          <attributeName>PLOTID</attributeName>
+          <attributeDefinition>Plot Identification Number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0025.table-3">
+          <attributeName>SPCode</attributeName>
+          <attributeDefinition>Species Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0026.table-3">
+          <attributeName>STEMS</attributeName>
+          <attributeDefinition>Number of stems</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0031.table-3">
+          <attributeName>DBH1</attributeName>
+          <attributeDefinition>Diameter at Breast Height 1 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0032.table-3">
+          <attributeName>DBH2</attributeName>
+          <attributeDefinition>Diameter at Breast Height 2 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0033.table-3">
+          <attributeName>DBH3</attributeName>
+          <attributeDefinition>Diameter at Breast Height 3 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0034.table-3">
+          <attributeName>DBH4</attributeName>
+          <attributeDefinition>Diameter at Breast Height 4 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0035.table-3">
+          <attributeName>DBH5</attributeName>
+          <attributeDefinition>Diameter at Breast Height 5 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0036.table-3">
+          <attributeName>DBH6</attributeName>
+          <attributeDefinition>Diameter at Breast Height 6 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0037.table-3">
+          <attributeName>DBH7</attributeName>
+          <attributeDefinition>Diameter at Breast Height 7 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0038.table-3">
+          <attributeName>DBH8</attributeName>
+          <attributeDefinition>Diameter at Breast Height 8 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0039.table-3">
+          <attributeName>DBH9</attributeName>
+          <attributeDefinition>Diameter at Breast Height 9 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0040.table-3">
+          <attributeName>DBH10</attributeName>
+          <attributeDefinition>Diameter at Breast Height 10 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0041.table-3">
+          <attributeName>DBH11</attributeName>
+          <attributeDefinition>Diameter at Breast Height 11 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0042.table-3">
+          <attributeName>TREEHT</attributeName>
+          <attributeDefinition>Tree Height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0043.table-3">
+          <attributeName>BASEHT</attributeName>
+          <attributeDefinition>Base Height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0044.table-3">
+          <attributeName>CROWNWDTH</attributeName>
+          <attributeDefinition>Crown Width</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0045.table-3">
+          <attributeName>CONDITION</attributeName>
+          <attributeDefinition>Condition</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0046.table-3">
+          <attributeName>PCTAREA</attributeName>
+          <attributeDefinition>% Area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0047.table-3">
+          <attributeName>PCTLEAFPRSNT</attributeName>
+          <attributeDefinition>% Leaf Present</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0048.table-3">
+          <attributeName>NUMBER</attributeName>
+          <attributeDefinition>Number for UFORE</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0049.table-3">
+          <attributeName>TRSR</attributeName>
+          <attributeDefinition>Tree or shrub flag field</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tree or shrub indicator</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0050.table-3">
+          <attributeName>#BLDG</attributeName>
+          <attributeDefinition>Number of buildings in vicinity for UFORE data</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0051.table-3">
+          <attributeName>DIR1</attributeName>
+          <attributeDefinition>Direction to building 1 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0052.table-3">
+          <attributeName>DIS1</attributeName>
+          <attributeDefinition>Distance to building 1 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0053.table-3">
+          <attributeName>DIR2</attributeName>
+          <attributeDefinition>Direction to building 2 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0054.table-3">
+          <attributeName>DIS2</attributeName>
+          <attributeDefinition>Distance to building 2 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0055.table-3">
+          <attributeName>DIR3</attributeName>
+          <attributeDefinition>Direction to building 3 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0056.table-3">
+          <attributeName>DIS3</attributeName>
+          <attributeDefinition>Distance to building 3 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0057.table-3">
+          <attributeName>STREET</attributeName>
+          <attributeDefinition>Presence or absense of a street for UFORE</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Y OR N flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0058.table-3">
+          <attributeName>CLE</attributeName>
+          <attributeDefinition>CLE code for UFORE</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>BES_1000-2</entityName>
+      <entityDescription>Data table for data set BES_1000</entityDescription>
+      <physical>
+        <objectName>Baltimore-Data-for-LTER-posting-all-2-of-4-1999.csv</objectName>
+        <size unit="kilobyte">78</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Urban Forest Effects Model (UFORE) Data.  The UFORE model calculates forest structure and function from sample ground data.</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bes/1000/120/49501115458c089ed1c248d2915698aa</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="BES-da-0029.table-2">
+          <attributeName>PLOTID</attributeName>
+          <attributeDefinition>Plot Identification Number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0025.table-2">
+          <attributeName>SPCode</attributeName>
+          <attributeDefinition>Species Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0026.table-2">
+          <attributeName>STEMS</attributeName>
+          <attributeDefinition>Number of stems</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0031.table-2">
+          <attributeName>DBH1</attributeName>
+          <attributeDefinition>Diameter at Breast Height 1 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0032.table-2">
+          <attributeName>DBH2</attributeName>
+          <attributeDefinition>Diameter at Breast Height 2 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0033.table-2">
+          <attributeName>DBH3</attributeName>
+          <attributeDefinition>Diameter at Breast Height 3 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0034.table-2">
+          <attributeName>DBH4</attributeName>
+          <attributeDefinition>Diameter at Breast Height 4 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0035.table-2">
+          <attributeName>DBH5</attributeName>
+          <attributeDefinition>Diameter at Breast Height 5 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0036.table-2">
+          <attributeName>DBH6</attributeName>
+          <attributeDefinition>Diameter at Breast Height 6 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0037.table-2">
+          <attributeName>DBH7</attributeName>
+          <attributeDefinition>Diameter at Breast Height 7 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0038.table-2">
+          <attributeName>DBH8</attributeName>
+          <attributeDefinition>Diameter at Breast Height 8 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0039.table-2">
+          <attributeName>DBH9</attributeName>
+          <attributeDefinition>Diameter at Breast Height 9 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0040.table-2">
+          <attributeName>DBH10</attributeName>
+          <attributeDefinition>Diameter at Breast Height 10 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0041.table-2">
+          <attributeName>DBH11</attributeName>
+          <attributeDefinition>Diameter at Breast Height 11 of 11 for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0042.table-2">
+          <attributeName>TREEHT</attributeName>
+          <attributeDefinition>Tree Height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0043.table-2">
+          <attributeName>BASEHT</attributeName>
+          <attributeDefinition>Base Height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0044.table-2">
+          <attributeName>CROWNWDTH</attributeName>
+          <attributeDefinition>Crown Width</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0045.table-2">
+          <attributeName>CONDITION</attributeName>
+          <attributeDefinition>Condition</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0046.table-2">
+          <attributeName>PCTAREA</attributeName>
+          <attributeDefinition>% Area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0047.table-2">
+          <attributeName>PCTLEAFPRSNT</attributeName>
+          <attributeDefinition>% Leaf Present</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0048.table-2">
+          <attributeName>NUMBER</attributeName>
+          <attributeDefinition>Number for UFORE</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0049.table-2">
+          <attributeName>TRSR</attributeName>
+          <attributeDefinition>Tree or shrub flag field</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tree or shrub indicator</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0050.table-2">
+          <attributeName>#BLDG</attributeName>
+          <attributeDefinition>Number of buildings in vicinity for UFORE data</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0051.table-2">
+          <attributeName>DIR1</attributeName>
+          <attributeDefinition>Direction to building 1 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0052.table-2">
+          <attributeName>DIS1</attributeName>
+          <attributeDefinition>Distance to building 1 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0053.table-2">
+          <attributeName>DIR2</attributeName>
+          <attributeDefinition>Direction to building 2 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0054.table-2">
+          <attributeName>DIS2</attributeName>
+          <attributeDefinition>Distance to building 2 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0055.table-2">
+          <attributeName>DIR3</attributeName>
+          <attributeDefinition>Direction to building 3 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0056.table-2">
+          <attributeName>DIS3</attributeName>
+          <attributeDefinition>Distance to building 3 in vicinity for UFORE</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0057.table-2">
+          <attributeName>STREET</attributeName>
+          <attributeDefinition>Presence or absense of a street for UFORE</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Y OR N flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0058.table-2">
+          <attributeName>CLE</attributeName>
+          <attributeDefinition>CLE code for UFORE</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>
